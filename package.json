@@ -1,0 +1,25 @@
+{
+  "name": "challenge-nodejs",
+  "version": "1.0.0",
+  "description": "Welcome to the Pomelo NodeJS challenge!",
+  "main": "index.js",
+  "scripts": {
+    "test": "lab -v **/*.test.js -c -I 'Reflect,core,_babelPolyfill,regeneratorRuntime,__core-js_shared__'",
+    "test-cov-html": "lab -r html -o coverage.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/code": "^8.0.1",
+    "@hapi/hapi": "^19.1.1",
+    "@hapi/inert": "^6.0.1",
+    "@hapi/vision": "^6.0.0",
+    "axios": "^0.19.2",
+    "handlebars": "^4.7.6",
+    "hapi-react-views": "^10.1.1",
+    "hapi-swagger": "^13.0.0"
+  },
+  "devDependencies": {
+    "@hapi/lab": "^22.0.4"
+  }
+}
